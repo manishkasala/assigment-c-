@@ -1,0 +1,13 @@
+1.Find the time complexity for the following code snippet: 
+a = 1;
+b = 1; 
+while(b <= n) { 
+	a = a + 1;
+	b = b + a; 
+	cout<<"Hi"; }
+Answer: for the following snippet the complexcity is big oh(n).
+
+2. Find the time complexity for the following code snippet: 
+for(i = n; i >= 1; i = i/3) 
+	cout<<"Hi";
+Answer: for the following snippet the complexcity is tetha(log n base3).
